@@ -1,6 +1,6 @@
-[submodule "lib/forge-std"]
-	path = lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
-[submodule "lib/openzeppelin-contracts"]
-	path = lib/openzeppelin-contracts
-	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+# Dependencies (forge-std, OpenZeppelin) are installed with:
+#   forge install foundry-rs/forge-std OpenZeppelin/openzeppelin-contracts
+# (OpenZeppelin is pinned to v5.7.0 in foundry.lock.)
+# This file intentionally lists no submodules: the snapshot used to
+# publish this repository cannot create submodule links, and listing
+# them here without links breaks `forge install`.
